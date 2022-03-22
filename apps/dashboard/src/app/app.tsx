@@ -1,12 +1,14 @@
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 import styles from './app.module.css';
 import NxWelcome from './nx-welcome';
+import { Title } from '@qlue/component';
 
 import { Route, Link } from 'react-router-dom';
 
 export function App() {
   return (
     <>
+      <Title title="Hello Qlass Bebas" />
       <NxWelcome title="dashboard" />
       <div />
 

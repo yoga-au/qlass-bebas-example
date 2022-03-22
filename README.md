@@ -23,7 +23,11 @@ To reduce complexity, we can use nx console extension, search for `nx` in vscode
 
 ## Create react lib with nx console
 
+Open nx console, click generate, make most barebone component with buildable flag, no css
+
 ## Import component to app
+
+Check tsconfig.base.json first, look for paths to confirm absolute imports, then import to apps, restart the dev server, then make sure component are shown up
 
 ## Add another app, add another lib (try dependency graph)
 
