@@ -15,6 +15,8 @@ Run `yarn nx generate @nrwl/react:application --dry-run` use dry run first to ch
 
 ## Run local development server
 
+Check `project.json` inside app folder, look for serve script then run `yarn nx run dashboard:serve`
+
 ## Add nx console extension
 
 ## Create react lib with nx console
