@@ -19,6 +19,8 @@ Check `project.json` inside app folder, look for serve script then run `yarn nx 
 
 ## Add nx console extension
 
+To reduce complexity, we can use nx console extension, search for `nx` in vscode extension menu, then add it
+
 ## Create react lib with nx console
 
 ## Import component to app
