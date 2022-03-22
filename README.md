@@ -29,7 +29,9 @@ Open nx console, click generate, make most barebone component with buildable fla
 
 Check tsconfig.base.json first, look for paths to confirm absolute imports, then import to apps, restart the dev server, then make sure component are shown up
 
-## Add another app, add another lib (try dependency graph)
+## Add another app, add another lib (try dependency graph and simulate error)
+
+Create another app named unity, and another libs for hooks using nx console, add useConsoleLog hooks to hooks lib, import it to unity and unity use Title component aswell, show dependency graph and simulate error inside useConsoleLog prove that it doesn't affect dashboard
 
 ## Installing 3rd party packages in nx
 

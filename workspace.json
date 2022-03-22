@@ -3,6 +3,9 @@
   "projects": {
     "component": "libs/component",
     "dashboard": "apps/dashboard",
-    "dashboard-e2e": "apps/dashboard-e2e"
+    "dashboard-e2e": "apps/dashboard-e2e",
+    "hooks": "libs/hooks",
+    "unity": "apps/unity",
+    "unity-e2e": "apps/unity-e2e"
   }
 }

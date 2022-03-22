@@ -15,7 +15,8 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@qlue/component": ["libs/component/src/index.ts"]
+      "@qlue/component": ["libs/component/src/index.ts"],
+      "@qlue/hooks": ["libs/hooks/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
