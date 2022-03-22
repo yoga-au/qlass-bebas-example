@@ -1,6 +1,7 @@
 {
   "version": 2,
   "projects": {
+    "component": "libs/component",
     "dashboard": "apps/dashboard",
     "dashboard-e2e": "apps/dashboard-e2e"
   }
