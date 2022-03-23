@@ -67,6 +67,14 @@
         "jestConfig": "apps/dashboard/jest.config.js",
         "passWithNoTests": true
       }
+    },
+    "demo": {
+      "executor": "@nrwl/workspace:run-commands",
+      "options": {
+        "color": true,
+        "command": "nx run dashboard:serve",
+        "envFile": "apps/dashboard/.env.staging"
+      }
     }
   },
   "tags": []
