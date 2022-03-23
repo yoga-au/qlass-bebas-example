@@ -46,3 +46,5 @@ Using assets is like usual, NEED to check project json in build options so its i
 To use env file, we need to create new command that load the env file, go to project.json then add new command with executor `@nrwl/workspaces:run-commands`. add command key, include command script that run serve command, then add envFile key, add path to env file (the path start from root workspaces)
 
 ## Building apps
+
+build the project using command from nx console, show the dist folder
