@@ -2,6 +2,7 @@
 import styles from './app.module.css';
 import NxWelcome from './nx-welcome';
 import { Title } from '@qlue/component';
+import QlueLogo from '../assets/qluedashboard.png';
 
 import { Route, Link } from 'react-router-dom';
 
@@ -9,6 +10,7 @@ export function App() {
   return (
     <>
       <Title title="Hello Qlass Bebas" />
+      <img src={QlueLogo} alt="Logo Qlue Dashboard" />
       <NxWelcome title="dashboard" />
       <div />
 

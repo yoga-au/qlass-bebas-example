@@ -39,6 +39,8 @@ To add any 3rd party package, run `yarn add -W [package-name]`, install goober, 
 
 ## Using assets
 
+Using assets is like usual, NEED to check project json in build options so its included in building process, the path start from root workspaces
+
 ## Environment variable
 
 ## Building apps
