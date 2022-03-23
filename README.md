@@ -35,6 +35,8 @@ Create another app named unity, and another libs for hooks using nx console, add
 
 ## Installing 3rd party packages in nx
 
+To add any 3rd party package, run `yarn add -W [package-name]`, install goober, change one of the component style
+
 ## Using assets
 
 ## Environment variable
