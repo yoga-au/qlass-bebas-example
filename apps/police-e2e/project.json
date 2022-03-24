@@ -1,0 +1,28 @@
+{
+  "root": "apps/police-e2e",
+  "sourceRoot": "apps/police-e2e/src",
+  "projectType": "application",
+  "targets": {
+    "e2e": {
+      "executor": "@nrwl/cypress:cypress",
+      "options": {
+        "cypressConfig": "apps/police-e2e/cypress.json",
+        "devServerTarget": "police:serve"
+      },
+      "configurations": {
+        "production": {
+          "devServerTarget": "police:serve:production"
+        }
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["apps/police-e2e/**/*.{js,ts}"]
+      }
+    }
+  },
+  "tags": [],
+  "implicitDependencies": ["police"]
+}

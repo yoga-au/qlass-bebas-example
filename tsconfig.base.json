@@ -16,7 +16,9 @@
     "baseUrl": ".",
     "paths": {
       "@qlue/component": ["libs/component/src/index.ts"],
-      "@qlue/hooks": ["libs/hooks/src/index.ts"]
+      "@qlue/hooks": ["libs/hooks/src/index.ts"],
+      "@qlue/types": ["libs/types/src/index.ts"],
+      "@qlue/utils": ["libs/utils/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

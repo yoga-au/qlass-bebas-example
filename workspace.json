@@ -5,7 +5,11 @@
     "dashboard": "apps/dashboard",
     "dashboard-e2e": "apps/dashboard-e2e",
     "hooks": "libs/hooks",
+    "police": "apps/police",
+    "police-e2e": "apps/police-e2e",
+    "types": "libs/types",
     "unity": "apps/unity",
-    "unity-e2e": "apps/unity-e2e"
+    "unity-e2e": "apps/unity-e2e",
+    "utils": "libs/utils"
   }
 }
